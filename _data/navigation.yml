@@ -1,12 +1,22 @@
 # main links
-main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+# main:
+#   - title: "홈"
+#     url: https://yangBasak.github.io
+#   - title: "about"
+#     url: /about/
+#   - title: "categories"
+#     url: /categories/
+
+# main links
+sidebar:
+  - title: "이론 공부"
+    children:
+      - title: "자바스크립트 이론"
+        url: /categories/theory/
+
+  - title: "프로젝트"
+    children:
+      - title: "동물 입양 앱"
+        url: /categories/animal/
+      - title: "완독 기록 웹"
+        url: /categories/bookList/
